@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-seo-skill",
+  "version": "1.0.0",
+  "description": "Search-visibility instructions for Google, Maps, YouTube, app stores, and marketplaces. No invented statistics and no retired rich-result tricks.",
+  "author": {
+    "name": "Byte Forward",
+    "url": "https://github.com/byteforwardyt"
+  },
+  "homepage": "https://github.com/byteforwardyt/ai-seo-skill",
+  "repository": "https://github.com/byteforwardyt/ai-seo-skill",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "search",
+    "local-seo",
+    "youtube",
+    "aso"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AI SEO",
+        "shortDescription": "Search visibility, not hype.",
+        "longDescription": "Tells an agent how to make a page, listing, or brand findable on the search surface that matters. It separates platform rules from industry habits, skips retired rich results, and does not invent statistics.",
+        "developerName": "Byte Forward",
+        "websiteURL": "https://github.com/byteforwardyt/ai-seo-skill",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Audit this URL for the search surfaces that matter. Say what is broken, what is fine, and what you could not check.",
+          "Which search surfaces should this business prioritize, and which should it ignore?",
+          "Rewrite this page for the searcher. Flag anything that would be keyword stuffing or a retired rich-result trick."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ai-seo-skill",
+  "description": "Search visibility, not hype.",
+  "owner": {
+    "name": "Byte Forward",
+    "url": "https://github.com/byteforwardyt"
+  },
+  "plugins": [
+    {
+      "name": "ai-seo-skill",
+      "source": "./",
+      "description": "Search-visibility instructions for Google, Maps, YouTube, app stores, and marketplaces. No invented statistics and no retired rich-result tricks.",
+      "version": "1.0.0",
+      "category": "Productivity"
+    }
+  ]
+}
